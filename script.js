@@ -25,7 +25,7 @@ function addTask(task) {
   listItem.appendChild(checkBox);
 
   const deleteButton = document.createElement('button');
-  deleteButton.textContent = 'Delete';
+  deleteButton.textContent = 'Apagar';
   listItem.appendChild(deleteButton);
 
   todoList.appendChild(listItem);
